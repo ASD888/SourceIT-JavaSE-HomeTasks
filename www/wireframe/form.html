@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="form-styles.css" type="text/css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<form class="form-horizontal">
+	
+		<div class="form-group">
+			<label for="txn-id" class="col-md-2 control-label">Service Txn ID</label>
+			<div class="col-md-3">
+				<input type="text" class="form-control" id="txn-id" disabled="disabled">
+			</div>
+			<label for="client-id" class="col-md-1 control-label">Client ID</label>
+			<div class="col-md-3">
+				<input type="text" class="form-control" id="client-id" disabled="disabled">
+			</div>
+			<div class="col-md-3">
+				<button type="submit" class="btn btn-success" >Add/View Attendees (0)</button>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="title-id" class="col-md-2 control-label">Service Title & ID<span class="required">*</span></label>
+			<div class="col-md-6">
+				<select class="form-control" id="title-id" required="required">
+			        <option>Title & ID</option>
+			        <option>Title & ID1</option>
+			        <option>Title & ID2</option>
+			        <option>CTitle & ID3</option>
+   				</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="work-name" class="col-md-2 control-label">Workshop Name<span class="required">*</span></label>
+			<div class="col-md-6">
+				<input type="text" class="form-control" id="work-name" required="required">
+			</div>
+			<label for="country" class="col-md-1 control-label">Country</label>
+			<div class="col-md-3">
+				<select class="form-control" id="country">
+			        <option>Country</option>
+			        <option>Country1</option>
+			        <option>Country2</option>
+			        <option>Country3</option>
+   				</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="trainer" class="col-md-2 control-label">Trainer<span class="required">*</span></label>
+			<div class="col-md-6">
+				<input type="text" class="form-control" id="trainer" required="required">
+			</div>
+			<label for="city" class="col-md-1 control-label">City</label>
+			<div class="col-md-3">
+				<select class="form-control" id="city">
+			        <option>City</option>
+			        <option>City1</option>
+			        <option>City2</option>
+			        <option>City3</option>
+   				</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="begin-date" class="col-md-2 control-label">Begin Date<span class="required">*</span></label>
+			<div class="col-md-2">
+				<div class="input-group">
+					<input type="text" class="form-control" id="begin-date" required="required" placeholder="**/**/****">
+					<span class="input-group-btn">
+						<button type="button"  class="btn btn-default">
+  							<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+						</button>
+					</span>
+				</div>
+			</div>
+			<label for="end-date" class="col-md-offset-1 col-md-1 control-label">End Date</label>
+			<div class="col-md-2">
+				<div class="input-group">
+					<input type="text" class="form-control" id="end-date" placeholder="**/**/****">
+					<span class="input-group-btn">
+						<button type="button"  class="btn btn-default">
+  							<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
+						</button>
+					</span>
+				</div>
+			</div>
+			<label for="zip" class="col-md-1 control-label">Zip Code</label>
+			<div class="col-md-3">
+				<select class="form-control" id="zip">
+			        <option>Zip Code</option>
+			        <option>Zip Code1</option>
+			        <option>Zip Code2</option>
+			        <option>Zip Code3</option>
+   				</select>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="dcdee" class="col-md-2 control-label">DCDEE Subject Category<span class="required">*</span></label>
+			<div class="col-md-10">
+				<div class="input-group-vertical">
+					<select multiple class="form-control" id="dcdee" required="required">
+				        <option>DCDEE Subject Category1</option>
+				        <option>DCDEE Subject Category2</option>
+				        <option>DCDEE Subject Category3</option>
+				        <option>DCDEE Subject Category4</option>
+				        <option>DCDEE Subject Category5</option>
+	      			</select>
+	      			<button type="button"  class="btn btn-primary">Click Here to Add Selections</button>		
+	      		</div>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="local" class="col-md-2 control-label">Local Subject Category</label>
+			<div class="col-md-10">
+				<div class="input-group-vertical">
+					<select multiple class="form-control" id="local">
+				        <option>Local Subject Category1</option>
+				        <option>Local Subject Category2</option>
+				        <option>Local Subject Category3</option>
+				        <option>Local Subject Category4</option>
+				        <option>Local Subject Category5</option>
+	      			</select>
+	      			<button type="button"  class="btn btn-primary">Click Here to Add Selections</button>		
+	      		</div>
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="hours" class="col-md-2 control-label">Numbers of Hours<span class="required">*</span></label>
+			<div class="col-md-1">
+				<input type="text" class="form-control" id="hours" required="required">
+			</div>
+			<label for="attended" class="col-md-offset-1 col-md-2 control-label">Number Attended</label>
+			<div class="col-md-1">
+				<input type="text" class="form-control" id="attended" disabled="disabled">
+			</div>
+			<label for="knowledge" class="col-md-offset-1 col-md-3 control-label">Number Increased Knowledge</label>
+			<div class="col-md-1">
+				<input type="text" class="form-control" id="knowledge">
+			</div>
+		</div>
+		
+		<div class="form-group">
+			<label for="ceus" class="col-md-2 control-label">Number of CEUs</label>
+			<div class="col-md-1">
+				<input type="text" class="form-control" id="ceus">
+			</div>
+			<label for="surveyed" class="col-md-offset-1 col-md-2 control-label">Number Surveyed</label>
+			<div class="col-md-1">
+				<input type="text" class="form-control" id="surveyed">
+			</div>
+			<label for="satisfied" class="col-md-offset-1 col-md-3 control-label">Number Satisfied</label>
+			<div class="col-md-1">
+				<input type="text" class="form-control" id="satisfied">
+			</div>
+		</div>
+		
+	</form>
+</body>
+</html>

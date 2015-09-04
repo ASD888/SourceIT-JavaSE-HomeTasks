@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+form {
+	margin: 20px;
+	padding:20px;
+	padding-bottom: 0px;
+	border: 1px solid #000;
+	background-color: #f0f8ff;
+}
+button {
+	width: 100%;
+}
+.form-group {
+	padding-bottom: 10px;
+}
+.required {
+	color: red;
+}

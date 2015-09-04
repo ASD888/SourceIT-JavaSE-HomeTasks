@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="JavaBasic" basedir="." default="compile">
+	<property name="src.dir" location="src"/>
+	<property name="lib.dir" location="lib"/>
+	<property name="build.dir" location="bin"/>
+	<property name="jar.dir" location="dist"/>
+	<property name="jar.lib.dir" location="${jar.dir}/lib"/>
+	<property name="main-class" value="com.sourceit.java.basic.MainLauncher"/>
+	
+	<path id="classpath">
+		<fileset dir="${lib.dir}" includes="**/*.jar"/>
+	</path>
+	
+	<pathconvert property="dist.classpath" pathsep=" " refid="classpath">
+		<mapper>
+			<chainedmapper>
+				<flattenmapper/>
+				<globmapper from="*" to="lib/*"/>
+			</chainedmapper>
+		</mapper>
+	</pathconvert>
+	
+	<target name="clean">
+		<delete dir="${jar.dir}"/>
+		<delete dir="${build.dir}"/>
+	</target>
+	
+	<target name="mkdir">
+		<mkdir dir="${build.dir}"/>
+	</target>
+	
+	<target name="compile" depends="clean, mkdir">
+		<javac srcdir="${src.dir}" destdir="${build.dir}">
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+	
+	<target name="jar" depends="compile">
+		<mkdir dir="${jar.dir}"/>
+		<mkdir dir="${jar.lib.dir}"/>
+		<copy todir="${jar.lib.dir}">
+			<fileset dir="${lib.dir}">
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+		<jar destfile="${jar.dir}/${ant.project.name}.jar" basedir="${build.dir}">
+			<manifest>
+				<attribute name="Main-Class" value="${main-class}"/>
+				<attribute name="Class-Path" value="${dist.classpath}"/>
+			</manifest>
+		</jar>
+	</target>
+</project>

@@ -1,0 +1,10 @@
+test/*
+bin/*
+lib/*
+www/test*
+CountrySort
+Country.txt
+.classpath
+.project
+*~
+text
