@@ -1,10 +1,7 @@
 test/*
 bin/*
 www/test*
-CountrySort
-Country.txt
 .classpath
 .project
 *~
-text
 *.*~
