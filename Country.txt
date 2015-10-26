@@ -1,0 +1,206 @@
+    Azerbaijan
+    Cyprus
+    Liechtenstein
+    Niger
+    Nepal
+    Macau
+    Mauritius
+    Bolivia
+    Qatar
+    Croatia
+    Indonesia
+    Slovakia
+    Mozambique
+    Tunisia
+    Bosnia and Herzegovina
+    San Marino
+    Macedonia
+    Congo, Democratic Republic of the
+    Korea, North
+    Guyana
+    Gambia, The
+    Czech Republic
+    
+    Mauritania
+    Ethiopia
+    Saint Lucia
+    Eritrea
+    Bhutan
+    Madagascar
+    Germany
+    Russia
+    Timor-Leste
+    Kosovo
+    Rwanda
+    Uruguay
+    Brunei
+    India
+    Armenia
+    Palau
+    Belarus
+    Bulgaria
+    Antigua and Barbuda
+    Cambodia
+    Zimbabwe
+    Libya
+    Iran
+    Tajikistan
+    Hungary
+    Sweden
+    Lithuania
+    Djibouti
+    Iraq
+    United Kingdom
+    Vietnam
+    Denmark
+    Portugal
+    Bahamas, The
+    Mongolia
+    Bangladesh
+    Central African Republic
+    Netherlands Antilles
+    Montenegro
+    Luxembourg  
+    Kuwait
+    South Sudan
+    United Arab Emirates
+    Mali
+    Sri Lanka
+    Latvia
+    Malaysia
+    Liberia
+    Canada
+    Tonga
+    Equatorial Guinea
+    Malta
+    Palestinian Territories
+    Romania
+    Guatemala
+    Morocco
+    Gabon
+    Holy See
+    Philippines
+    Paraguay
+    Norway
+    Estonia
+    Spain
+    Burkina Faso
+    Fiji
+    Switzerland
+    Sudan
+    Austria
+    Pakistan
+    Greece
+    Israel
+    Panama
+    Japan
+    Afghanistan
+    Saint Kitts and Nevis
+    Chad
+    Senegal
+    Saudi Arabia
+    Uganda
+    Vanuatu
+    Georgia
+    Dominican Republic
+    Colombia
+    Ireland
+    Guinea
+    Peru
+    France
+    Poland
+    Yemen
+    Monaco
+    Ghana
+    Benin
+    Marshall Islands
+    North Korea
+    Grenada
+    Lesotho
+    Nauru
+    Albania
+    Honduras
+    Guinea-Bissau
+    Italy
+    Burundi
+    Ukraine
+    China
+    Thailand
+    South Korea
+    Andorra
+    Cape Verde
+    Trinidad and Tobago
+    Uzbekistan
+    Belgium
+    Curacao
+    Venezuela
+    Kazakhstan
+    Botswana
+    Serbia
+    Chile
+    Lebanon
+    Burma
+    South Africa
+    Laos
+    Kiribati
+    Dominica
+    Malawi
+    Congo, Republic of the
+    Seychelles
+    Cuba
+    Sint Maarten
+    Egypt
+    Singapore
+    Sao Tome and Principe
+    Angola
+    Cote d'Ivoire
+    Maldives
+    Turkmenistan
+    Bahrain
+    Swaziland
+    Aruba
+    Algeria
+    Hong Kong
+    Slovenia
+    Iceland
+    Taiwan
+    East Timor (see Timor-Leste)
+    Tanzania
+    Jordan
+    Cameroon
+    Moldova
+    Micronesia
+    Costa Rica
+    New Zealand
+    Comoros
+    Suriname
+    Somalia
+    Haiti
+    Ecuador
+    Korea, South
+    Australia
+    Zambia
+    Kyrgyzstan
+    Finland
+    Papua New Guinea
+    Belize
+    Mexico
+    Kenya
+    Nicaragua
+    Togo
+    Namibia
+    Saint Vincent and the Grenadines
+    Brazil
+    Turkey
+    Argentina
+    El Salvador
+    Syria
+    Sierra Leone
+    Nigeria
+    Tuvalu
+    Barbados
+    Jamaica
+    Netherlands
+    Oman
+    Samoa
+    Solomon Islands
