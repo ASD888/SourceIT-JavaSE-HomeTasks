@@ -1,6 +1,5 @@
 test/*
 bin/*
-lib/*
 www/test*
 CountrySort
 Country.txt
